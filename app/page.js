@@ -1,14 +1,14 @@
-import Image from 'next/image';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
     <>
-      <head></head>
-      <main>
+      <div>
         {/* {Header} */}
+        <Header />
         {/* {Feed} */}
         {/* {Modal} */}
-      </main>
+      </div>
     </>
   );
 }
